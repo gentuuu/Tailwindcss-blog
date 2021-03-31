@@ -1,0 +1,171 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+
+</head>
+
+<div class="navigation">
+  <div class="container">
+    <div class="navigation-wrapper"><a class="logo" href="index.html"></a>
+      <div class="navigation-content">
+        <div class="navigation-menu">
+          <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+          <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+          </label>                       
+          <nav class="navigation__nav">
+            <ul class="navigation__list">
+              <li class="navigation__item"><a href="index.html" class="navigation__link">Drukarki</a></li>
+              <li class="navigation__item"><a href="page.html" class="navigation__link">Tonery i tusze</a></li>
+              <li class="navigation__item"><a href="page2.html" class="navigation__link">Porady</a></li> 
+              <li class="navigation__item"><a href="podstrona.html" class="navigation__link">Artykuły</a></li>  
+              <li class="navigation__item"><a href="" class="navigation__link">Kontakt</a></li>  
+              <li class="navigation__item">
+            </ul>
+          </nav>
+          <form action="{$BASE_URL}/szukaj.html" class="search-form" id="search-box" name="keyword">
+            <button class="search-btn" type="submit">
+                <img src="/img/search-icon.png" alt="">
+            </button>
+            <input class="navbar-form" type="search" placeholder="Szukaj" aria-label="Search" name="keyword">
+          </form>
+        </div>
+      </div>
+   </div>
+  </div>
+</div>
+
+
+
+<main>
+    <div class="container">
+        <div class="mt-20">
+            <ul class="flex text-2xl">
+                <li class="mx-4">Strona główna</li>
+                <li>|</li>
+                <li class="mx-4">Artykuły</li>
+            </ul>
+        </div>
+
+        <div class="mt-20">
+          <div class="flex flex-col md:flex-row">
+            <div class="w-full md:w-2/4 border-2 border-gray-200">
+                <img class="w-full h-full object-contain p-8" src="img/drukarki.png" alt="">
+            </div>
+            <div class="w-full md:w-2/4 pl-12 flex flex-col">
+                <h2 class="text-4xl mt-8">Paramerty produktu</h2> 
+                <span class="text-2xl font-bold">Firma: Lorem</span>
+                <span class="text-2xl font-bold">Format: A4m</span>
+                <span class="text-2xl font-bold">Automatyczny druk dwustronny: nie</span>
+                <span class="text-2xl font-bold">Rozdzielczość druku w kolorze: -</span>
+                <span class="text-2xl font-bold">Szybkość drukowania mono: 20 str./min.</span>
+                <span class="text-2xl font-bold">Miejsce użytkowania: biuro</span>
+            </div>
+          </div>
+          <div class="text-2xl mt-12">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, vero! Iusto porro distinctio at voluptatibus, a, recusandae delectus ab labore quia cumque explicabo atque non dolore amet sunt adipisci eligendi.
+              Ut aliquam fuga ex error veniam perspiciatis sequi possimus placeat magni neque odit cumque exercitationem illum voluptate quidem rerum ab autem officia, voluptatum sapiente similique soluta quisquam? Nostrum, facilis provident!
+              Molestiae esse quia unde velit facilis, nam optio iusto at nemo reprehenderit consequuntur atque error aliquid neque rem modi porro. Labore ipsa a repellat inventore magni quo debitis recusandae? Accusamus.
+              Maiores voluptate laboriosam sit placeat eius. Molestias velit ipsam ipsa hic minus veritatis ratione quos, recusandae quis harum ab, dolor nam veniam amet perferendis est repudiandae inventore non, voluptatum alias!
+          </div>
+        </div>
+
+        <div class="mt-20">
+            <div class="text-5xl font-bold text-yellow-400">Tonery do drukarek</div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-8">
+                <a href="" class="item">
+                    <div class="border-2 border-gray-20 h-80">
+                        <img class="w-full h-full object-contain" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="text-2xl text-center font-semibold m-4">LOREM IPSUM DOREM</div>
+                </a>
+                <a href="" class="item">
+                    <div class="border-2 border-gray-20 h-80">
+                        <img class="w-full h-full object-contain" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="text-2xl text-center font-semibold m-4">LOREM IPSUM DOREM</div>
+                </a>
+                <a href="" class="item">
+                    <div class="border-2 border-gray-20 h-80">
+                        <img class="w-full h-full object-contain" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="text-2xl text-center font-semibold m-4">LOREM IPSUM DOREM</div>
+                </a>
+                <a href="" class="item">
+                    <div class="border-2 border-gray-20 h-80">
+                        <img class="w-full h-full object-contain" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="text-2xl text-center font-semibold m-4">LOREM IPSUM DOREM</div>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="text-5xl font-bold text-yellow-400 mt-16">Porady</div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
+            <a href class="item flex flex-col bg-gray-100">
+              <div class="w-full h-85">
+                <img class="w-full -h-full object-cover" src="img/porada2.jpg" alt="">
+              </div>
+              <div class="flex flex-col p-4">
+                <h1 class="text-4xl">Lorem ipsum asdad</h1>
+                <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minus, consequatur totam...</p>
+              </div>
+            </a>
+            <a href class="item flex flex-col bg-gray-100">
+              <div class="w-full h-85">
+                <img class="w-full -h-full object-cover" src="img/porada2.jpg" alt="">
+              </div>
+              <div class="flex flex-col p-4">
+                <h1 class="text-4xl">Lorem ipsum asdad</h1>
+                <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minus, consequatur totam...</p>
+              </div>
+            </a>
+            <a href class="item flex flex-col bg-gray-100">
+              <div class="w-full h-85">
+                <img class="w-full -h-full object-cover" src="img/porada2.jpg" alt="">
+              </div>
+              <div class="flex flex-col p-4">
+                <h1 class="text-4xl">Lorem ipsum asdad</h1>
+                <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minus, consequatur totam...</p>
+              </div>
+            </a>
+            
+          </div>
+
+    </div>
+    
+    
+</main>
+
+<footer class="mt-32 bg-black h-52">
+  <div class="container">
+      <ul class="flex items-center justify-center pt-10">
+        <li class="px-10 py-2 text-2xl text-white "><a class="text-white hover:text-yellow-400" href="">Drukarki</a> </li>
+        <li class="px-10 py-2 text-2xl text-white"><a class="text-white hover:text-yellow-400" href="">Tonery i tusze</a></li>
+        <li class="px-10 py-2 text-2xl text-white"><a class="text-white hover:text-yellow-400" href="">Porady</a></li>
+      </ul>
+      <div class="text-center text-white pt-10 text-2xl" >Copyright wszelkie prawa zastrzezone </div>
+  </div>
+</footer>
+
+<body>
+
+
+
+
+
+
+</body>
+
+</html>

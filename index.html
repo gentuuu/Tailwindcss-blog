@@ -1,0 +1,335 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+
+</head>
+
+<div class="navigation">
+  <div class="container">
+    <div class="navigation-wrapper"><a class="logo" href="index.html"></a>
+      <div class="navigation-content">
+        <div class="navigation-menu">
+          <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+          <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+          </label>                       
+          <nav class="navigation__nav">
+            <ul class="navigation__list">
+              <li class="navigation__item"><a href="index.html" class="navigation__link">Drukarki</a></li>
+              <li class="navigation__item"><a href="page.html" class="navigation__link">Tonery i tusze</a></li>
+              <li class="navigation__item"><a href="page2.html" class="navigation__link">Porady</a></li> 
+              <li class="navigation__item"><a href="podstrona.html" class="navigation__link">Artykuły</a></li>  
+              <li class="navigation__item"><a href="" class="navigation__link">Kontakt</a></li>  
+              <li class="navigation__item">
+            </ul>
+          </nav>
+          <form action="{$BASE_URL}/szukaj.html" class="search-form" id="search-box" name="keyword">
+            <button class="search-btn" type="submit">
+                <img src="/img/search-icon.png" alt="">
+            </button>
+            <input class="navbar-form" type="search" placeholder="Szukaj" aria-label="Search" name="keyword">
+          </form>
+        </div>
+      </div>
+   </div>
+  </div>
+</div>
+
+<header>
+  <div class="relative h-96">
+    <img class="w-full h-full object-cover" src="img/header-bg.png" alt="">
+    <div class="absolute top-2/4 left-2/4 z-10 text-white text-6xl sm:text-8xl transform -translate-x-2/4 -translate-y-2/4">
+      <span class="text-yellow-400">Ranking drukarek</span><br>i tonerów
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section id="popular-product">
+    <div class="container">
+      <div class="text-5xl mt-16 font-bold">Polecane <span class="text-yellow-400">drukarki</span></div>
+      <div class="shadow-2xl grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-10 gap-10 ">
+        <div class="item">
+          <a href="" class="flex flex-col w-full h-full">
+            <div class="w-full">
+              <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+            </div>
+            <div class="text-3xl h-20 hover:bg-yellow-400 flex items-center justify-center">Laserowa</div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="" class="flex flex-col w-full h-full">
+            <div class="w-full">
+              <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+            </div>
+            <div class="text-3xl h-20 hover:bg-yellow-400 flex items-center justify-center">Laserowa</div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="" class="flex flex-col w-full h-full">
+            <div class="w-full">
+              <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+            </div>
+            <div class="text-3xl h-20 hover:bg-yellow-400 flex items-center justify-center">Laserowa</div>
+          </a>
+        </div>
+        <div class="item">
+          <a href="" class="flex flex-col w-full h-full">
+            <div class="w-full">
+              <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+            </div>
+            <div class="text-3xl h-20 hover:bg-yellow-400 flex items-center justify-center">Laserowa</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="popular-news">
+    <div class="container">
+      <div class="text-5xl mt-16 font-bold">Polecane <span class="text-yellow-400">porady</span></div>
+      <div class="flex mt-10 items-center flex-col md:flex-row justify-center bg-gray-100 ">
+        <div class="w-full md:w-2/4">
+          <img class="w-full h-full object-cover" src="img/porada1.jpg" alt="">
+        </div>
+        <div class="w-full p-8 w-2/4 h-full md:w-2/4 md:px-20">
+          <div class="text-3xl">Wyposażenie biura – jakie meble i urządzenia trzeba mieć w biurze?</div>
+          <div class="text-2xl my-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Asperiores doloribus eveniet numquam alias rem libero voluptatem 
+          </div>
+          <a class="px-10 py-4 bg-yellow-400 text-white rounded-3xl text-2xl" href=""> czytaj więcej</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-10 mt-10">
+        <a href class="item flex flex-col bg-gray-100">
+          <div class="w-full h-85">
+            <img class="w-full -h-full object-cover" src="img/porada2.jpg" alt="">
+          </div>
+          <div class="flex flex-col p-4">
+            <h1 class="text-4xl">Lorem ipsum asdad</h1>
+            <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minus, consequatur totam...</p>
+          </div>
+        </a>
+        <a href class="item flex flex-col bg-gray-100">
+          <div class="w-full h-85">
+            <img class="w-full -h-full object-cover" src="img/porada2.jpg" alt="">
+          </div>
+          <div class="flex flex-col p-4">
+            <h1 class="text-4xl">Lorem ipsum asdad</h1>
+            <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minus, consequatur totam...</p>
+          </div>
+        </a>
+        <a href class="item flex flex-col bg-gray-100">
+          <div class="w-full h-85">
+            <img class="w-full -h-full object-cover" src="img/porada2.jpg" alt="">
+          </div>
+          <div class="flex flex-col p-4">
+            <h1 class="text-4xl">Lorem ipsum asdad</h1>
+            <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minus, consequatur totam...</p>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="popular-items">
+    <div class="container">
+      <div class="text-5xl mt-16 font-bold">Polecane <span class="text-yellow-400">porady</span></div>
+      <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 shadow-2xl mt-10 gap-10 pt-10">
+        <a href class="item flex flex-col">
+          <div class="w-full h-72">
+            <img class="w-full h-full object-contain" src="img/tusze.jpg" alt="">
+          </div>
+          <div class="text-3xl h-20 hover:bg-yellow-400 flex items-center justify-center">Tusz 123</div>
+        </a>
+        <a href class="item flex flex-col">
+          <div class="w-full h-72">
+            <img class="w-full h-full object-contain" src="img/tusze.jpg" alt="">
+          </div>
+          <div class="text-3xl h-20 hover:bg-yellow-400 flex items-center justify-center">Tusz 123</div>
+        </a>
+        <a href class="item flex flex-col">
+          <div class="w-full h-72">
+            <img class="w-full h-full object-contain" src="img/tusze.jpg" alt="">
+          </div>
+          <div class="text-3xl h-20 hover:bg-yellow-400 flex items-center justify-center">Tusz 123</div>
+        </a>
+        <a href class="item flex flex-col">
+          <div class="w-full h-72">
+            <img class="w-full h-full object-contain" src="img/tusze.jpg" alt="">
+          </div>
+          <div class="text-3xl h-20 hover:bg-yellow-400 flex items-center justify-center">Tusz 123</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="popular-items-2">
+    <div class="container">
+      <div class="text-5xl mt-16 font-bold text-center">Polecane <span class="text-yellow-400">porady</span></div>
+      <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-cols-5 gap-10 mt-10">
+        <a href="" class="item flex flex-col hover:shadow-2xl">
+          <div class="flex items-center justify-between  p-4 ">
+            <div class="bg-gray-200 px-4 py-2 text-2xl">Popularne</div>
+            <div class="flex text-2xl items-center">
+              <img src="img/stars.png" alt="">
+              48
+            </div>
+          </div>
+          <div class="h-64 p-4">
+            <img class="w-full h-full object-contain" src="img/popular.jpg" alt="">
+          </div>
+          <div class="text-2xl mt-2 p-4">
+            TONER CANON CRG707BK DO LBP-5000/5100 | 2 500 STR. | BLACK
+          </div>
+          <div class="flex items-center justify-center text-white bg-yellow-400 w-full h-12 mt-4 text-2xl">zobacz</div>
+        </a>
+        <a href="" class="item flex flex-col hover:shadow-2xl">
+          <div class="flex items-center justify-between  p-4 ">
+            <div class="bg-gray-200 px-4 py-2 text-2xl">Popularne</div>
+            <div class="flex text-2xl items-center">
+              <img src="img/stars.png" alt="">
+              48
+            </div>
+          </div>
+          <div class="h-64 p-4">
+            <img class="w-full h-full object-contain" src="img/popular.jpg" alt="">
+          </div>
+          <div class="text-2xl mt-2 p-4">
+            TONER CANON CRG707BK DO LBP-5000/5100 | 2 500 STR. | BLACK
+          </div>
+          <div class="flex items-center justify-center text-white bg-yellow-400 w-full h-12 mt-4 text-2xl">zobacz</div>
+        </a>
+        <a href="" class="item flex flex-col hover:shadow-2xl">
+          <div class="flex items-center justify-between  p-4 ">
+            <div class="bg-gray-200 px-4 py-2 text-2xl">Popularne</div>
+            <div class="flex text-2xl items-center">
+              <img src="img/stars.png" alt="">
+              48
+            </div>
+          </div>
+          <div class="h-64 p-4">
+            <img class="w-full h-full object-contain" src="img/popular.jpg" alt="">
+          </div>
+          <div class="text-2xl mt-2 p-4">
+            TONER CANON CRG707BK DO LBP-5000/5100 | 2 500 STR. | BLACK
+          </div>
+          <div class="flex items-center justify-center text-white bg-yellow-400 w-full h-12 mt-4 text-2xl">zobacz</div>
+        </a>
+        <a href="" class="item flex flex-col hover:shadow-2xl">
+          <div class="flex items-center justify-between  p-4 ">
+            <div class="bg-gray-200 px-4 py-2 text-2xl">Popularne</div>
+            <div class="flex text-2xl items-center">
+              <img src="img/stars.png" alt="">
+              48
+            </div>
+          </div>
+          <div class="h-64 p-4">
+            <img class="w-full h-full object-contain" src="img/popular.jpg" alt="">
+          </div>
+          <div class="text-2xl mt-2 p-4">
+            TONER CANON CRG707BK DO LBP-5000/5100 | 2 500 STR. | BLACK
+          </div>
+          <div class="flex items-center justify-center text-white bg-yellow-400 w-full h-12 mt-4 text-2xl">zobacz</div>
+        </a>
+        <a href="" class="item flex flex-col hover:shadow-2xl">
+          <div class="flex items-center justify-between  p-4 ">
+            <div class="bg-gray-200 px-4 py-2 text-2xl">Popularne</div>
+            <div class="flex text-2xl items-center">
+              <img src="img/stars.png" alt="">
+              48
+            </div>
+          </div>
+          <div class="h-64 p-4">
+            <img class="w-full h-full object-contain" src="img/popular.jpg" alt="">
+          </div>
+          <div class="text-2xl mt-2 p-4">
+            TONER CANON CRG707BK DO LBP-5000/5100 | 2 500 STR. | BLACK
+          </div>
+          <div class="flex items-center justify-center text-white bg-yellow-400 w-full h-12 mt-4 text-2xl">zobacz</div>
+        </a>
+      </div>
+    </div>
+    
+  </section>
+
+  <section id="about-news">
+    <div class="container">
+      <div class="text-5xl mt-16 font-bold ">Polecane <span class="text-yellow-400">porady</span></div>
+      <div class="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mt-10 gap-10">
+        <a href="" class="item">
+          <div class="w-full h-80">
+            <img class="h-full w-full object-cover" src="img/porady.jpg" alt="">
+          </div>
+          <div class="text-2xl p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit dicta, cumque vero dolor </div>
+        </a>
+        <a href="" class="item">
+          <div class="w-full h-80">
+            <img class="h-full w-full object-cover" src="img/porady.jpg" alt="">
+          </div>
+          <div class="text-2xl p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit dicta, cumque vero dolor </div>
+        </a>
+        <a href="" class="item">
+          <div class="w-full h-80">
+            <img class="h-full w-full object-cover" src="img/porady.jpg" alt="">
+          </div>
+          <div class="text-2xl p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit dicta, cumque vero dolor </div>
+        </a>
+        <a href="" class="item">
+          <div class="w-full h-80">
+            <img class="h-full w-full object-cover" src="img/porady.jpg" alt="">
+          </div>
+          <div class="text-2xl p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit dicta, cumque vero dolor </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="text-about">
+    <div class="container">
+      <h1 class="text-5xl text-yellow-400 mt-12">Lorem ipsum</h1>
+      <p class="mt-6 text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolor maiores quis sint facere eius dignissimos ducimus vero. Omnis reiciendis inventore at ratione nobis eos aspernatur maiores nihil magnam. Iusto.
+      Maxime, cumque nam nobis placeat repellat exercitationem ut aut praesentium soluta architecto officiis quibusdam. Autem culpa similique reiciendis? Mollitia id, culpa iure suscipit praesentium dicta perspiciatis qui sed quia eum!
+      Excepturi saepe cum ipsum consectetur. Tempore culpa, commodi, repellendus inventore ullam eos possimus architecto necessitatibus ea perspiciatis ipsum illo voluptatum quod molestias minus voluptatibus tempora officiis numquam aliquam. Numquam, obcaecati.
+      Dolore, nesciunt fuga? Consequatur est doloremque quae veniam sunt, hic, magnam ipsa architecto enim, aspernatur voluptate exercitationem. Saepe tempora laudantium suscipit a necessitatibus quam, unde sed sunt rem consectetur sit.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="mt-32 bg-black h-52">
+  <div class="container">
+      <ul class="flex items-center justify-center pt-10">
+        <li class="px-10 py-2 text-2xl text-white "><a class="text-white hover:text-yellow-400" href="">Drukarki</a> </li>
+        <li class="px-10 py-2 text-2xl text-white"><a class="text-white hover:text-yellow-400" href="">Tonery i tusze</a></li>
+        <li class="px-10 py-2 text-2xl text-white"><a class="text-white hover:text-yellow-400" href="">Porady</a></li>
+      </ul>
+      <div class="text-center text-white pt-10 text-2xl" >Copyright wszelkie prawa zastrzezone </div>
+  </div>
+</footer>
+
+<body>
+
+
+
+
+
+
+</body>
+
+</html>

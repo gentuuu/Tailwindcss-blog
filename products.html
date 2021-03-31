@@ -1,0 +1,220 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+
+</head>
+
+<div class="navigation">
+  <div class="container">
+    <div class="navigation-wrapper"><a class="logo" href="index.html"></a>
+      <div class="navigation-content">
+        <div class="navigation-menu">
+          <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+          <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+          </label>                       
+          <nav class="navigation__nav">
+            <ul class="navigation__list">
+              <li class="navigation__item"><a href="index.html" class="navigation__link">Drukarki</a></li>
+              <li class="navigation__item"><a href="page.html" class="navigation__link">Tonery i tusze</a></li>
+              <li class="navigation__item"><a href="page2.html" class="navigation__link">Porady</a></li> 
+              <li class="navigation__item"><a href="podstrona.html" class="navigation__link">Artykuły</a></li>  
+              <li class="navigation__item"><a href="" class="navigation__link">Kontakt</a></li>  
+              <li class="navigation__item">
+            </ul>
+          </nav>
+          <form action="{$BASE_URL}/szukaj.html" class="search-form" id="search-box" name="keyword">
+            <button class="search-btn" type="submit">
+                <img src="/img/search-icon.png" alt="">
+            </button>
+            <input class="navbar-form" type="search" placeholder="Szukaj" aria-label="Search" name="keyword">
+          </form>
+        </div>
+      </div>
+   </div>
+  </div>
+</div>
+
+<header>
+    <div class="w-full h-52 bg-black text-center py-4">
+        <h1 class="text-7xl text-white">Prodiukty</h1>
+        <p class="text-3xl text-white mt-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <div class="mt-20">
+            <ul class="flex text-2xl">
+                <li class="mx-4">Strona główna</li>
+                <li>|</li>
+                <li class="mx-4">Produkty</li>
+            </ul>
+        </div>
+
+        <div class="mt-20">
+          <div class="flex flex-col md:flex-row justify-between">
+            <div class="w-full md:w-2/12">
+                <div class="text-4xl text-yellow-400">Filtruj</div>
+                <div class="text-3xl mt-12">Kategoria 1</div>
+                <div class="flex flex-col">
+                    <label class="relative pl-12 mb-4 text-2xl mt-4">
+                        kategoria 1
+                        <input class="absolute opancity-0 h-0 w-0" type="checkbox">
+                        <span class="absolute top-0 left-0 h-8 w-8 border-2 border-yellow-400"></span>
+                    </label>
+                    <label class="relative pl-12 mb-4 text-2xl mt-4">
+                        kategoria 1
+                        <input class="absolute opancity-0 h-0 w-0" type="checkbox">
+                        <span class="absolute top-0 left-0 h-8 w-8 border-2 border-yellow-400"></span>
+                    </label>
+                    <label class="relative pl-12 mb-4 text-2xl mt-4">
+                        kategoria 1
+                        <input class="absolute opancity-0 h-0 w-0" type="checkbox">
+                        <span class="absolute top-0 left-0 h-8 w-8 border-2 border-yellow-400"></span>
+                    </label>
+                    <label class="relative pl-12 mb-4 text-2xl mt-4">
+                        kategoria 1
+                        <input class="absolute opancity-0 h-0 w-0" type="checkbox">
+                        <span class="absolute top-0 left-0 h-8 w-8 border-2 border-yellow-400 after: "></span>
+                    </label>
+                </div>
+                <div class="text-3xl">Kategoria 1</div>
+                <div class="flex flex-col">
+                    <label class="relative pl-12 mb-4 text-2xl mt-4">
+                        kategoria 1
+                        <input class="absolute opancity-0 h-0 w-0" type="checkbox">
+                        <span class="absolute top-0 left-0 h-8 w-8 border-2 border-yellow-400"></span>
+                    </label>
+                    <label class="relative pl-12 mb-4 text-2xl mt-4">
+                        kategoria 1
+                        <input class="absolute opancity-0 h-0 w-0" type="checkbox">
+                        <span class="absolute top-0 left-0 h-8 w-8 border-2 border-yellow-400"></span>
+                    </label>
+                    <label class="relative pl-12 mb-4 text-2xl mt-4">
+                        kategoria 1
+                        <input class="absolute opancity-0 h-0 w-0" type="checkbox">
+                        <span class="absolute top-0 left-0 h-8 w-8 border-2 border-yellow-400"></span>
+                    </label>
+                    <label class="relative pl-12 mb-4 text-2xl mt-4">
+                        kategoria 1
+                        <input class="absolute opancity-0 h-0 w-0" type="checkbox">
+                        <span class="absolute top-0 left-0 h-8 w-8 border-2 border-yellow-400 after: "></span>
+                    </label>
+                </div>
+            </div>
+            <div class="grid w-full md:w-10/12 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 ">
+                <a href="" class="group item hover:shadow-2xl flex flex-col">
+                    <div class="h-56">
+                        <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="h-16 text-3xl font-bold flex items-center justify-center">LOrem inpsum</div>
+                    <div class="h-16 text-2xl font-bold flex items-center justify-center  group-hover:text-white group-hover:bg-yellow-400">zobacz</div>
+                </a>
+                <a href="" class="group item hover:shadow-2xl flex flex-col">
+                    <div class="h-56">
+                        <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="h-16 text-3xl font-bold flex items-center justify-center">LOrem inpsum</div>
+                    <div class="h-16 text-2xl font-bold flex items-center justify-center  group-hover:text-white group-hover:bg-yellow-400">zobacz</div>
+                </a>
+                <a href="" class="group item hover:shadow-2xl flex flex-col">
+                    <div class="h-56">
+                        <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="h-16 text-3xl font-bold flex items-center justify-center">LOrem inpsum</div>
+                    <div class="h-16 text-2xl font-bold flex items-center justify-center  group-hover:text-white group-hover:bg-yellow-400">zobacz</div>
+                </a>
+
+                <a href="" class="group item hover:shadow-2xl flex flex-col">
+                    <div class="h-56">
+                        <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="h-16 text-3xl font-bold flex items-center justify-center">LOrem inpsum</div>
+                    <div class="h-16 text-2xl font-bold flex items-center justify-center  group-hover:text-white group-hover:bg-yellow-400">zobacz</div>
+                </a>
+                <a href="" class="group item hover:shadow-2xl flex flex-col">
+                    <div class="h-56">
+                        <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="h-16 text-3xl font-bold flex items-center justify-center">LOrem inpsum</div>
+                    <div class="h-16 text-2xl font-bold flex items-center justify-center  group-hover:text-white group-hover:bg-yellow-400">zobacz</div>
+                </a>
+                <a href="" class="group item hover:shadow-2xl flex flex-col">
+                    <div class="h-56">
+                        <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="h-16 text-3xl font-bold flex items-center justify-center">LOrem inpsum</div>
+                    <div class="h-16 text-2xl font-bold flex items-center justify-center  group-hover:text-white group-hover:bg-yellow-400">zobacz</div>
+                </a>
+                <a href="" class="group item hover:shadow-2xl flex flex-col">
+                    <div class="h-56">
+                        <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="h-16 text-3xl font-bold flex items-center justify-center">LOrem inpsum</div>
+                    <div class="h-16 text-2xl font-bold flex items-center justify-center  group-hover:text-white group-hover:bg-yellow-400">zobacz</div>
+                </a>
+                <a href="" class="group item hover:shadow-2xl flex flex-col">
+                    <div class="h-56">
+                        <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="h-16 text-3xl font-bold flex items-center justify-center">LOrem inpsum</div>
+                    <div class="h-16 text-2xl font-bold flex items-center justify-center  group-hover:text-white group-hover:bg-yellow-400">zobacz</div>
+                </a>
+                <a href="" class="group item hover:shadow-2xl flex flex-col">
+                    <div class="h-56">
+                        <img class="w-full h-full object-cover" src="img/drukarki.png" alt="">
+                    </div>
+                    <div class="h-16 text-3xl font-bold flex items-center justify-center">LOrem inpsum</div>
+                    <div class="h-16 text-2xl font-bold flex items-center justify-center  group-hover:text-white group-hover:bg-yellow-400">zobacz</div>
+                </a>
+                
+                
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination mt-14">
+            <ul class="text-2xl font-semibold flex items-center justify-center">
+                <li class="px-4"><a href="">1</a> </li>
+                <li class="px-4"><a href="">2</a> </li>
+                <li class="px-4"><a href="">3</a> </li>
+            </ul>
+        </div>
+
+    </div>
+    
+    
+</main>
+
+<footer class="mt-32 bg-black h-52">
+  <div class="container">
+      <ul class="flex items-center justify-center pt-10">
+        <li class="px-10 py-2 text-2xl text-white "><a class="text-white hover:text-yellow-400" href="">Drukarki</a> </li>
+        <li class="px-10 py-2 text-2xl text-white"><a class="text-white hover:text-yellow-400" href="">Tonery i tusze</a></li>
+        <li class="px-10 py-2 text-2xl text-white"><a class="text-white hover:text-yellow-400" href="">Porady</a></li>
+      </ul>
+      <div class="text-center text-white pt-10 text-2xl" >Copyright wszelkie prawa zastrzezone </div>
+  </div>
+</footer>
+
+<body>
+
+
+
+
+
+
+</body>
+
+</html>
